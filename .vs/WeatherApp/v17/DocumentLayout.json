@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Kuba\\Downloads\\WeatherApp-Mobile-main\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{D15DE1E5-73A8-4234-80F2-3A76B5ED27A1}|WeatherApp\\WeatherApp.csproj|c:\\users\\kuba\\downloads\\weatherapp-mobile-main\\weatherapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D15DE1E5-73A8-4234-80F2-3A76B5ED27A1}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\mainpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D15DE1E5-73A8-4234-80F2-3A76B5ED27A1}|WeatherApp\\WeatherApp.csproj|c:\\users\\kuba\\downloads\\weatherapp-mobile-main\\weatherapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{D15DE1E5-73A8-4234-80F2-3A76B5ED27A1}|WeatherApp\\WeatherApp.csproj|solutionrelative:weatherapp\\mainpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Kuba\\Downloads\\WeatherApp-Mobile-main\\WeatherApp\\MainPage.xaml.cs",
+              "RelativeDocumentMoniker": "WeatherApp\\MainPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Kuba\\Downloads\\WeatherApp-Mobile-main\\WeatherApp\\MainPage.xaml.cs",
+              "RelativeToolTip": "WeatherApp\\MainPage.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-04T15:12:43.979Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MainPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Kuba\\Downloads\\WeatherApp-Mobile-main\\WeatherApp\\MainPage.xaml",
+              "RelativeDocumentMoniker": "WeatherApp\\MainPage.xaml",
+              "ToolTip": "C:\\Users\\Kuba\\Downloads\\WeatherApp-Mobile-main\\WeatherApp\\MainPage.xaml",
+              "RelativeToolTip": "WeatherApp\\MainPage.xaml",
+              "ViewState": "AQIAAAMAAAAAAAAAAIAwwBgAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-09-02T15:42:19.938Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

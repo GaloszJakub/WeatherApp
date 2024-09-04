@@ -1,0 +1,42 @@
+﻿<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WeatherApp.MainPage">
+
+    <ScrollView>
+        <StackLayout Padding="20">
+
+            
+            <Entry x:Name="CityEntry" Placeholder="Enter city name" />
+            <Button Text="Get Weather" Clicked="OnGetWeatherClicked" />
+
+           
+            <Label x:Name="CityLabel" FontSize="Large" />
+            <Label x:Name="WeatherLabel" />
+            <Label x:Name="TemperatureLabel" />
+            <Label x:Name="PressureLabel" />
+            <Image x:Name="WeatherIcon" HeightRequest="100" WidthRequest="100" />
+
+           
+            <Button Text="Add to Favorites" Clicked="OnAddToFavoritesClicked" />
+
+          
+            <CollectionView x:Name="FavoritesCollectionView" 
+                            ItemsSource="{Binding FavoriteCities}" 
+                            HeightRequest="410">
+                
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <StackLayout Orientation="Horizontal" Padding="10">
+                            <Image Source="{Binding Icon}" WidthRequest="50" HeightRequest="50"/>
+                            <Label Text="{Binding Name}" VerticalOptions="Center"/>
+                            <Label Text="{Binding Temperature}" VerticalOptions="Center" HorizontalOptions="EndAndExpand" Padding="0,0,10,0"/>
+                            <Button Text="X" Command="{Binding RemoveCommand}" VerticalOptions="Center" HorizontalOptions="End"/>
+                        </StackLayout>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>
